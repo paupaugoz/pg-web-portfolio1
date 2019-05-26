@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
-import Introduction from './components/introduction'
-//import Test from './components/test'
+import './components/Introduction.css'
+import './components/Projects.css'
+import './components/animate.css'
 
+import Projects from './components/projects'
+import Introduction from './components/introduction'
+// import Test from './components/test'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-     <div>
-     <Introduction></Introduction>
- 
-     Test
-     </div>
-     );
-}
+      <div>
+        <Introduction />
+        <Projects />    
+      </div>
+    )
+  }
 }
 
 export default App;
